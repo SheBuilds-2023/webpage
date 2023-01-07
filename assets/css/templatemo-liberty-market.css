@@ -41,6 +41,14 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
+.text1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0081C9
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -137,7 +145,7 @@ body {
   font-size: 14px;
   color: #fff;
   background-color: transparent;
-  border: 1px solid #7453fc;
+  border: 1px solid #0081C9;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -161,15 +169,15 @@ body {
 }
 
 .border-button a:hover {
-  background-color: #7453fc;
+  background-color: #0081C9;
   color: #fff;
 }
 
 .main-button a {
   font-size: 14px;
   color: #fff;
-  background-color: #7453fc;
-  border: 1px solid #7453fc;
+  background-color: #0081C9;
+  border: 1px solid #0081C9;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -728,7 +736,7 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(../images/banner-bg.jpg);
+  background-image: url(../images/women.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
