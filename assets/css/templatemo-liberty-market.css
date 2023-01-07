@@ -46,7 +46,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #0081C9
+  color: #c91700
 }
 
 .clearfix:after {
@@ -132,12 +132,12 @@ body {
 }
 
 ::selection {
-  background: #7453fc;
+  background: #c91700;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #7453fc;
+  background: #c91700;
   color: #fff;
 }
 
@@ -145,7 +145,7 @@ body {
   font-size: 14px;
   color: #fff;
   background-color: transparent;
-  border: 1px solid #0081C9;
+  border: 1px solid #c91700;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -169,15 +169,15 @@ body {
 }
 
 .border-button a:hover {
-  background-color: #0081C9;
+  background-color: #c91700;
   color: #fff;
 }
 
 .main-button a {
   font-size: 14px;
   color: #fff;
-  background-color: #0081C9;
-  border: 1px solid #0081C9;
+  background-color: #c91700;
+  border: 1px solid #c91700;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -202,7 +202,7 @@ body {
 
 .main-button a:hover {
   background-color: #fff;
-  color: #7453fc;
+  color: #c91700;
   border: 1px solid #fff;
 }
 
@@ -736,7 +736,7 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(../images/women.jpg);
+  background-image: url(../images/back1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1236,8 +1236,8 @@ Footer Style
 */
 
 footer {
-  background: rgb(125,90,254);
-  background: linear-gradient(132deg, rgba(125,90,254,1) 25%, rgba(160,84,244,1) 100%);
+  background:#c91700;
+  background: linear-gradient(132deg, #c91700 25%, #c91700 100%);
   text-align: center;
   padding: 25px 0px;
 }
@@ -1269,11 +1269,11 @@ Page Heading Style
 }
 
 .page-heading {
-  background-image: url(../images/heading-bg.jpg);
+  background-image: url(../images/back2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding-top: 250px;
+ 
   text-align: center;
   background-color: #2a2a2a;
 }
