@@ -1,14 +1,14 @@
 ### Building Url Dynamically 
 ####Variable Rules And URL Building
 
-from flask import Flask,redirect,url_for
+from flask import Flask,redirect,url_for,render_template
 import pandas
 
 app=Flask(__name__)
 
 @app.route('/')
 def welcome():
-    render_template('index.html')
+    return render_template('index.html')
 
 @app.route('/success/<int:score>')
 def success(score):
